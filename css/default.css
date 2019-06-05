@@ -1,0 +1,49 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+header {
+  height: 60px;
+  line-height: 60px;
+  background: #40a9ff;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  transition: 0.3s;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+  height: inherit;
+  line-height: inherit;
+}
+header ul li {
+  width: 60px;
+  text-align: center;
+  transition: 0.3s;
+}
+header ul li:hover {
+  background-color: #69c0ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+header ul a {
+  user-select: none;
+  color: #fff;
+  text-decoration: none !important;
+}
+header ul a:link {
+  text-decoration: none !important;
+}
+header ul a:hover {
+  color: #fff !important;
+}
+header.mindiv {
+  transition: 0.3s;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+}

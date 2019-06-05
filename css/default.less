@@ -1,0 +1,50 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+header {
+  height: 60px;
+  line-height: 60px;
+  background: #40a9ff;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  transition: .3s;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    height: inherit;
+    line-height: inherit;
+    li {
+      width: 60px;
+      text-align: center;
+      transition: 0.3s;
+      &:hover {
+        background-color: #69c0ff;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+     
+    }
+    a {
+      user-select: none;
+      color: #fff;
+      text-decoration: none !important;
+      &:link {
+        text-decoration: none !important;
+      }
+      &:hover {
+        color: #fff !important;
+      }
+    }
+  }
+  &.mindiv{
+    transition: .3s;
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  }
+}

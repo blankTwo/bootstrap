@@ -1,0 +1,63 @@
+.logo-default {
+  background: #e6f7ff;
+}
+.amin {
+  overflow: hidden;
+}
+.amin #bm {
+  width: 230px;
+  height: 130px;
+  position: relative;
+  display: inline-block;
+  left: -120px;
+}
+
+.main {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  top: 30px;
+  position: relative;
+}
+.x1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  background-color: red;
+  display: inline-block;
+  border-radius: 100%;
+  animation: sh 1s linear .3s infinite alternate;
+}
+.x2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 100%;
+  position: relative;
+  display: inline-block;
+  float: right;
+  left: -25px;
+  animation: sh 1s linear .3s infinite alternate;
+}
+.z {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  background-color: red;
+  display: inline-block;
+  transform: rotate(45deg);
+  position: relative;
+  left: 37.5px;
+  top: -68px;
+  animation: sh 1s linear .3s infinite alternate;
+}
+
+@keyframes sh {
+  50% {
+    box-shadow: 0 0 10px 2px red;
+  }
+  100% {
+    box-shadow: 0 0 10px 4px red;
+  }
+}
